@@ -216,3 +216,26 @@ body{
             align-items: flex-start;
         }
     }
+
+    a.button:hover{
+
+        background: rgb(206, 124, 31);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 5px #666;
+        
+    }
+    
+    .submitButton:hover{
+    
+        background: rgb(0, 23, 128);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 5px #666;
+    }
+    .resetButton:hover{
+        background: yellow;
+        border-radius: 10px;
+        box-shadow: 0 6px #666;
+    }
+    
