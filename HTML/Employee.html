@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/UC1.css">
+    <link rel="stylesheet" href="/CSS/employee.css">
     <title>Employee payroll form</title>
 </head>
 <body>
@@ -14,6 +14,17 @@
     <div>
         <span class="emp-text">EMPLOYEE</span><br>
         <span class="emp-text emp-payroll">PAYROLL</span>
+    </div>
+</header> 
+    <div class="form-content">
+        <form class="form" action="#" onreset ="resetForm()" onsubmit="save(); return false">
+            <div class="form-head">Employee Payroll form</div>
+            <div class="row-content">
+                <label class="label next" for="name">Name</label>
+                <input class="input" type="text" id="name" name="name" placeholder="Your name." required>
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+        </form>
     </div>
 </body>
 </html>
